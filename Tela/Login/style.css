@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(239, 240, 243);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.login{
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 13px;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.span-login{
+    color: #e63636;
+    display: none;
+    font-size: 12px;
+    margin: 3px;
+}
+
+.inputs {
+    outline: none;
+    font-size: 18px;
+    border: 1px solid rgb(226, 220, 220);
+    border-radius: 2px;
+    width: 19rem;
+    padding: 17px;
+    box-sizing: border-box;
+    transition: .3s;
+} .inputs:focus {
+    border-color: rgb(226, 220, 220);
+}
+
+::-webkit-input-placeholder{
+    color: rgb(211, 203, 203);
+    font-size: 17px;
+}
+
+.box-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.link-botao{
+    text-align: center;
+    font-size: 13px;
+    color: rgb(60, 122, 255);
+}
+
+.botao1 {
+    background-color: rgb(61, 119, 245);
+    color: white;
+    font-size: 17px;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+} .botao1:hover{
+    background-color: rgb(94, 139, 236);
+}
+
+.botao2{
+    background-color: rgb(20, 165, 20);
+    margin: 20px 75px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    transition: .3s;
+} .botao2:hover{
+    background-color: rgb(30, 197, 30);
+}
+
